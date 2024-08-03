@@ -1,0 +1,274 @@
+.mainTable {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+.vote-button {
+    margin: 20px;
+    padding: 8px 33px 8px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.account {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+.live {
+    color: red;
+    font-weight: bold;
+}
+.header {
+    color: orange;
+    font-weight: bold;
+    font-size: 24px;
+}
+.select-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.select-container label {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.select-container select {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+.input-group-text{
+    padding: 11px;
+}
+
+@media (min-width: 600px) {
+    .select-container {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .select-container label {
+        margin-right: 10px;
+        margin-bottom: 0;
+    }
+}
+
+/* login form  */
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+.containerLogin{
+height: 100%;
+align-content: center;
+background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 90vh;
+font-family: 'Numans', sans-serif;
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+.card-footer a:hover{
+color: white;
+text-decoration: underline;
+}
+
+.card-body{
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+/* create poll  */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .containerPoll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .field {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .input, .textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .input:focus, .textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .option-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .remove-button {
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .remove-button:hover {
+    background: #c82333;
+  }
+  
+  .add-option-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-option-button:hover {
+    background-color: #218838;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
